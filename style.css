@@ -1,0 +1,51 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+button {
+    margin-top: 10px;
+}
+
+input {
+    margin-right: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 500px;
+    margin: 15px auto 0 auto;
+}
+
+.boxes {
+    margin-bottom: 10px;
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.boxes > div {
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+}
+
+.box {
+    border: 0.5px solid black;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 15px;
+}
+
